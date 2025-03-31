@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"ys-project\startup_stm32f103xe.o"
+"ys-project\main.o"
+"ys-project\gpio.o"
+"ys-project\iwdg.o"
+"ys-project\usart.o"
+"ys-project\stm32f1xx_it.o"
+"ys-project\stm32f1xx_hal_msp.o"
+"ys-project\stm32f1xx_hal_gpio_ex.o"
+"ys-project\stm32f1xx_hal_iwdg.o"
+"ys-project\stm32f1xx_hal.o"
+"ys-project\stm32f1xx_hal_rcc.o"
+"ys-project\stm32f1xx_hal_rcc_ex.o"
+"ys-project\stm32f1xx_hal_gpio.o"
+"ys-project\stm32f1xx_hal_dma.o"
+"ys-project\stm32f1xx_hal_cortex.o"
+"ys-project\stm32f1xx_hal_pwr.o"
+"ys-project\stm32f1xx_hal_flash.o"
+"ys-project\stm32f1xx_hal_flash_ex.o"
+"ys-project\stm32f1xx_hal_exti.o"
+"ys-project\stm32f1xx_hal_uart.o"
+"ys-project\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "YS-Project\YS-Project.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "YS-Project.map" -o YS-Project\YS-Project.axf

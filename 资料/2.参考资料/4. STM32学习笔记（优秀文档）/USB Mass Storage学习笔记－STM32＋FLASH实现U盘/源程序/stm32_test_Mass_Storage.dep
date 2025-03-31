@@ -1,0 +1,4 @@
+Dependencies for Project 'stm32_test', Target 'Mass_Storage': (DO NOT MODIFY !)
+F (..\..\..\..\common\startup\stm32f10x_vector.s)(0x00000000)(--device DARMSTM -g --apcs=interwork -I "C:\Keil\ARM\INC\ST\STM32F10x" --list "..\listing\stm32f10x_vector.lst" --xref -o "..\Run_In_Flash\stm32f10x_vector.o")
+F (..\..\..\..\common\src\stm32f10x_fsmc.c)(0x00000000)(-c --device DARMSTM -g -O0 --apcs=interwork -I..\..\..\..\common\inc -I..\..\..\USBLIB\inc -I..\inc -I "C:\Keil\ARM\INC\ST\STM32F10x" -DUSE_STM3210E_EVAL -o "..\Run_In_Flash\stm32f10x_fsmc.o" --omf_browse "..\Run_In_Flash\stm32f10x_fsmc.crf" --depend "..\Run_In_Flash\stm32f10x_fsmc.d")
+F (..\Read_me\readme.txt)(0x00000000)()

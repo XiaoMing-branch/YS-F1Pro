@@ -28,3 +28,7 @@ ys-project\iwdg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 ys-project\iwdg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h
 ys-project\iwdg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 ys-project\iwdg.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+ys-project\iwdg.o: ../User/ymodem.h
+ys-project\iwdg.o: ../User/IAP.h
+ys-project\iwdg.o: ../Core/Inc/main.h
+ys-project\iwdg.o: ../User/flash.h

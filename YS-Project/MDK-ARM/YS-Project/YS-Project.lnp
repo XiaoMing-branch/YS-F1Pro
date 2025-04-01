@@ -2,6 +2,7 @@
 "ys-project\startup_stm32f103xe.o"
 "ys-project\main.o"
 "ys-project\gpio.o"
+"ys-project\dma.o"
 "ys-project\iwdg.o"
 "ys-project\usart.o"
 "ys-project\stm32f1xx_it.o"
@@ -20,6 +21,9 @@
 "ys-project\stm32f1xx_hal_exti.o"
 "ys-project\stm32f1xx_hal_uart.o"
 "ys-project\system_stm32f1xx.o"
+"ys-project\ymodem.o"
+"ys-project\iap.o"
+"ys-project\flash.o"
 --library_type=microlib --strict --scatter "YS-Project\YS-Project.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

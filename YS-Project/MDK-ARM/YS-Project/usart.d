@@ -28,4 +28,8 @@ ys-project\usart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 ys-project\usart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h
 ys-project\usart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 ys-project\usart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+ys-project\usart.o: ../User/ymodem.h
+ys-project\usart.o: ../User/IAP.h
+ys-project\usart.o: ../Core/Inc/main.h
+ys-project\usart.o: ../User/flash.h
 ys-project\usart.o: D:\0.Software\1.install_path\0.Keil5\ARM\ARMCC\Bin\..\include\stdio.h
